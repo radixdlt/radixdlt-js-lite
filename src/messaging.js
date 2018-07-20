@@ -10,7 +10,7 @@ export default class Messaging {
    */
   sendMessage(recipient, message) {
     // Method: 'send_message'
-    // Permissions: ['send_message']
+    // Permissions: ['send_messages']
     const params = {
       'recipient': recipient,
       'message': message
@@ -52,7 +52,7 @@ export default class Messaging {
    */
   sendApplicationMessage(applicationId, recipients, payload, encrypted) {
     // Method: 'send_application_message'
-    // Permissions: ['send_application_message']
+    // Permissions: ['send_application_messages']
     const params = {
       'application_id': applicationId,
       'recipients': recipients,

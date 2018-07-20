@@ -1,6 +1,6 @@
 {
   "name": "radixdlt-js-lite",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "description": "A Javascript lite Client library for interacting with a RADIX Distributed Ledger through the Desktop Wallet.",
   "main": "lib/radixdlt-js-lite.js",
   "scripts": {
