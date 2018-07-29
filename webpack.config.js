@@ -21,24 +21,23 @@ const config = {
   mode: mode,
   entry: __dirname + '/src/index.js',
   devtool: 'source-map',
+  target: 'node',
   output: {
     path: __dirname + '/lib',
     filename: outputFile,
     library: libraryName,
     libraryTarget: 'umd',
-    umdNamedDefine: true
+    globalObject: 'typeof self !== \'undefined\' ? self : this'
   },
   module: {
     rules: [
       {
         test: /(\.jsx|\.js)$/,
-        loader: 'babel-loader',
-        exclude: /(node_modules|bower_components)/
+        loader: 'babel-loader'
       },
       {
         test: /(\.jsx|\.js)$/,
-        loader: 'eslint-loader',
-        exclude: /node_modules/
+        loader: 'eslint-loader'
       }
     ]
   },

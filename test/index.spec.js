@@ -1,7 +1,7 @@
 /* global describe, it, before */
 
 import chai from 'chai';
-import { registerApp } from '../src/connection-handler.js';
+import { registerApp } from '../lib/radixdlt-js-lite';
 
 const name = 'Cashgrab';
 const description = 'Takes all your money, I don\'t even know why you would accept this';

@@ -65,7 +65,6 @@ export default class Connection {
     return this._tokenValue;
   }
   register(name, description, permissions) {
-    // Method: 'register'
     const request = JSON.stringify({
       jsonrpc: '2.0',
       method: 'register',
@@ -86,7 +85,6 @@ export default class Connection {
     });
   }
   connect(token) {
-    // Method: 'check_token'
     const request = JSON.stringify({
       jsonrpc: '2.0',
       method: 'ping',
