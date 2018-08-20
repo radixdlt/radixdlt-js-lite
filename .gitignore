@@ -34,3 +34,6 @@ node_modules
 
 # Generated lib
 lib
+
+# Leftovers
+package-lock.json
