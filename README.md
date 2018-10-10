@@ -1,6 +1,6 @@
 # radixdlt-js-lite
 
-A Javascript lite Client library for interacting with a RADIX Distributed Ledger through the Desktop Wallet. For more information on RADIX, please see https://www.radixdlt.com.
+A Javascript lite Client library for interacting with a [Radix](https://www.radixdlt.com) Distributed Ledger through the Desktop Wallet.
 
 # Usage Guide
 
